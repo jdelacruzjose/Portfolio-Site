@@ -48,6 +48,11 @@ nav ul{
   top: -160px;
 }
 
+.landingMain{
+  height: 700px;
+
+}
+
 .landingMain h1{
   color: #405cab;
   margin-left: 780px;
@@ -83,5 +88,23 @@ nav ul{
 }
 
 .portfoliolnk{
-  width: 80px;
+  width: 60px;
+  padding-right: 40px;
 }
+
+.logos{
+  margin-left: 860px;
+  margin-top: -350px;
+  position: absolute;
+
+}
+
+.arrowlnk{
+  width: 80px;
+  position: absolute;
+  top: 680px;
+  left: 50%;
+  fill: #dfe3ec;
+
+}
+
