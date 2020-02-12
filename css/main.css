@@ -66,12 +66,19 @@ nav ul{
   font-size: 4em;
 }
 
-.landingMain p{
+.landingMain p:first-of-type{
   color: #405cab;
   margin-left: 780px;
   padding-top: 10px;
   font-size: 1.2em;
   height: 400px;
+}
+
+.landingMain p:nth-of-type(2){
+  color: #405cab;
+  float: right;
+  margin-top: -320px;
+  padding-right: 220px;
 }
 
 .nameNav{
