@@ -28,14 +28,14 @@ nav ul{
   text-decoration: none;
   color: #405cab;
   font-size: 1.7em;
-  padding: 20px;
+  margin-right: 20px;
   font-weight: bold;
 }
 
 .grayBlob{
   position: relative;
-  top: 2px;
-  left: -475px;
+  top: -543px;
+  left: -100px;
   z-index: -1;
   transform: rotate(25deg);
   height: 700px;
@@ -44,42 +44,48 @@ nav ul{
 
 .mypic{
   position: relative;
-  left: 240px;
-  top: -160px;
+  margin-left: 160px;
 }
 
 .landingMain{
   height: 700px;
+  display: flex;
 }
 
-.landingMain h1{
+.imageMain{
+  width: 50%;
+}
+
+.contentMain{
+  width: 50%;
+}
+
+.contentMain h1{
   color: #405cab;
-  margin-left: 780px;
-  margin-top: -600px;
   font-size: 5em;
+  padding-top: 75px;
+  padding-left: 20px;
 }
 
-.landingMain h2{
+.contentMain h2{
   color: #405cab;
-  margin-left: 780px;
   font-size: 4em;
+  padding-left: 20px;
 }
 
-.landingMain p:first-of-type{
+.contentMain p:first-of-type{
   color: #405cab;
-  margin-left: 780px;
-  padding-top: 10px;
   font-size: 1.2em;
   height: 400px;
+  padding-left: 20px;
+  padding-top: 10px;
 }
 
-.landingMain p:nth-of-type(2){
+.contentMain p:nth-of-type(2){
   color: #405cab;
-  float: right;
   margin-top: -340px;
   font-size: 1.5em;
-  padding-right: 100px;
-
+  padding-left: 20px;
 }
 
 .nameNav{
@@ -126,21 +132,34 @@ nav ul{
   position: absolute;
   top: 680px;
   left: 50%;
-  fill: #dfe3ec;
 }
 
-.contact{
+.projectDetails{
   height: 700px;
   width: 50%;
   background-color: #dfe3ec;
 }
 
-.contact img{
+.projectDetails img{
   width: 50%;
-  padding: 100px;
+  padding-top: 20px;
+  padding-left: 100px;
 }
 
 .projectContain{
-  display: flex;
-  
+  display: flex; 
+}
+
+.projectDetails h1{
+  padding-left: 100px;
+  padding-top: 120px;
+  font-size: 2.5em;
+  color: #405cab;
+}
+
+.projectDetails p{
+  padding-left: 100px;
+  padding-top: 10px;
+  font-size: 1.2em;
+  color: #405cab;
 }
