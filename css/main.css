@@ -16,6 +16,7 @@ body {
 nav{
   width: 100%;
   height: 80px;
+  display: block;
 }
 
 nav ul{
@@ -40,11 +41,13 @@ nav ul{
   transform: rotate(25deg);
   height: 700px;
   width: 900px;
+  display: block;
 }
 
 .mypic{
   position: relative;
   margin-left: 160px;
+  display: block;
 }
 
 .landingMain{
@@ -86,6 +89,7 @@ nav ul{
     margin-top: -350px;
     font-size: 1.3em;
     padding-left: 20px;
+    display: block;
 }
 
 .nameNav{
@@ -100,6 +104,8 @@ nav ul{
   background-color: #405cab;
   height: 180px;
   text-align: center;
+  width: 100%;
+  display: block;
 }
 
 .projects h1{
@@ -121,7 +127,8 @@ nav ul{
 .logos{
   display: flex;
   justify-content: center;
-  background-color: #dfe3ec;
+  background-color: #405cab;
+  padding-bottom: 60px;
 }
 
 .arrowlnk{
@@ -151,6 +158,8 @@ nav ul{
 .project1 img{
   width: 400px;
   justify-content: center;
+  display: block;
+
 }
 
 .project1 h2{
@@ -173,13 +182,37 @@ nav ul{
 }
 
 .contact{
-  background-color: #dfe3ec;
-  height: 180px;
+  background-color: #405cab;
+  height: 380px;
   text-align: center;
+  padding-bottom: 15px;
 }
 
 .contact p{
-  color: #405cab;
-  font-size: 3em;
+  color: white;
+  font-size: 4em;
   padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.contact input:first-of-type{
+  width: 20%;
+  border: 2px solid #dbdfe4;
+  padding: 5px 9px;
+  border-radius: 4px;
+}
+
+.contact input:nth-of-type(2){
+  width: 20%;
+  border: 2px solid #dbdfe4;
+  padding: 5px 9px;
+  border-radius: 4px;
+}
+
+.contact input:nth-of-type(3){
+  width: 20%;
+  border: 2px solid #dbdfe4;
+  padding: 5px 9px;
+  padding-bottom: 150px;
+  border-radius: 4px;
 }
