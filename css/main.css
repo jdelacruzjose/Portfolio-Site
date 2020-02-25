@@ -13,6 +13,12 @@ body {
   font-weight: 900;
  }
 
+ a {
+  text-decoration: none !important;
+  color: #405cab;
+
+}
+
 nav{
   width: 100%;
   height: 80px;
@@ -26,11 +32,11 @@ nav ul{
 
 .navBarStyleLinks li{
   display: inline;
-  text-decoration: none;
   color: #405cab;
   font-size: 1.7em;
   margin-right: 20px;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .grayBlob{
@@ -127,9 +133,6 @@ nav ul{
 
 .logos{
   display: flex;
-  justify-content: center;
-  background-color: #405cab;
-  padding-bottom: 60px;
 }
 
 .arrowlnk{
@@ -140,9 +143,11 @@ nav ul{
 }
 
 .projectDetails{
-  height: 600px;
+  height: 650px;
+  width: 100%;
   background-color: white;
   display: flex;
+  justify-content: flex-start;
 }
 
 .project1{
@@ -166,6 +171,7 @@ nav ul{
   color: #405cab;
   padding-top: 20px;
   font-size: 2em;
+  font-weight: 900;
 }
 
 
@@ -185,7 +191,7 @@ nav ul{
 
 .contact{
   background-color: #405cab;
-  height: 400px;
+  height: 500px;
   text-align: center;
   padding-bottom: 15px;
   width: 600px;
@@ -200,30 +206,34 @@ nav ul{
 .contact p{
   color: white;
   font-size: 3em;
-  padding-top: 40px;
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
+
 .contact input:first-of-type{
-  width: 20%;
+  width: 60%;
   border: 2px solid #dbdfe4;
-  padding: 5px 9px;
+  padding: 10px 10px;
   border-radius: 4px;
+  margin: 5px;
 }
 
 .contact input:nth-of-type(2){
-  width: 20%;
+  width: 60%;
   border: 2px solid #dbdfe4;
-  padding: 5px 9px;
+  padding: 10px 10px;
   border-radius: 4px;
+  margin: 5px;
 }
 
 .contact input:nth-of-type(3){
-  width: 20%;
+  width: 60%;
   border: 2px solid #dbdfe4;
-  padding: 5px 9px;
+  padding: 10px 10px;
   padding-bottom: 150px;
   border-radius: 4px;
+  margin: 5px;
 }
 
 .contactMain{
@@ -232,8 +242,26 @@ nav ul{
   
 }
 
+.mailSubmit{
+
+}
+
+.bottomFoot{
+  display: flex;
+  justify-content: space-between;
+  background-color: #405cab;
+  padding: 15px 20px 20px 15px;
+}
+
 .footBottom{
   background-color: #405cab;
-  
   display: flex;
+}
+
+.nameFot{
+  color: white;
+  font-size: 2.8em;
+  margin-right: 20px;
+  font-weight: bold;
+  text-decoration: none;
 }
